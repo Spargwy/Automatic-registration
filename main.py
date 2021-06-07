@@ -23,7 +23,7 @@ class Registration:
             '/html/body/div[4]/div/div/div[17]/form/div[2]/div[1]/div[4]/div/div/div[2]/input')
         name_field.send_keys(self.real_name)
         email_field.send_keys(self.user_email + Keys.RETURN)
-        # небольшая пауза, чтобы все данные были переданы
+        # небольшая пауза, чтобы все данные успели передаться
         time.sleep(5)
 
 
